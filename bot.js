@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === 'Log#') {
+    	message.reply('Current Log 2016-2017 Last log before shutdown');
   	}
 });
 
