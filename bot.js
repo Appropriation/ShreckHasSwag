@@ -17,10 +17,12 @@ client.on('message', message => {
   	}
 });
 
-var Client = require("mpp-client"); var client = new Client("ws://multiplayerpiano.com:443"); var room = "Room1"; setInterval(()=>{
+var Client = require("bot.js"); var client = new Client("ws://multiplayerpiano.com:443"); var room = "Room1"; setInterval(()=>{
     if ((client.isConnected() && !client.channel) || (client.channel && client.channel._id != room)) 
         client.setChannel(room); 
-}, 1000);
+     }                                                                                                                            
+ });                                                                                                                                                                                                                                                         
+                                                                                                                              
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
