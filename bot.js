@@ -16,13 +16,7 @@ client.on('message', message => {
     	message.reply('You have achieved the big homosapian, miss me with that gay shit');
   	}
 });
-
-var Client = require("bot.js"); var client = new Client("ws://multiplayerpiano.com:443"); var room = "Room1"; setInterval(()=>{
-    if ((client.isConnected() && !client.channel) || (client.channel && client.channel._id != room)) 
-        client.setChannel(room); 
-     }                                                                                                                            
- });                                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                        
                                                                                                                               
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
