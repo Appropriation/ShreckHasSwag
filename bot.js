@@ -12,8 +12,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '/Sys_Check_Default') {
-    	message.reply('Online Room: 0/0');
+    if (message.content === 'No u') {
+    	message.reply('You have achieved the big homosapian, miss me with that gay shit');
   	}
 });
 
