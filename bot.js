@@ -22,6 +22,12 @@ client.on('message', message => {
     	message.reply('Good commies do not use capitals because they are not capitalist scumbags good work commrades *stands and solutes*');
   	}
 });
+
+client.on('message', message => {
+    if (message.content === 'Shreck Meme') {
+    	message.reply('https://cdn.discordapp.com/attachments/380292099377201162/515270334174461952/tumblr_pie02giID21xoyw8po1_400.gif');
+  	}
+});
                                                                                                                                                                                                                                                         
                                                                                                                               
 // THIS  MUST  BE  THIS  WAY
