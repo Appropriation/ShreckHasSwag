@@ -16,6 +16,12 @@ client.on('message', message => {
     	message.reply('You have achieved the big homosapian, miss me with that gay shit');
   	}
 });
+
+client.on('message', message => {
+    if (message.content === 'no u') {
+    	message.reply('Good commies do not use capitals because they are not capitalist scumbags good work commrades *stands and solutes*');
+  	}
+});
                                                                                                                                                                                                                                                         
                                                                                                                               
 // THIS  MUST  BE  THIS  WAY
