@@ -48,6 +48,11 @@ client.on('message', message => {
     	message.reply('white trash');
   	}
 });
+client.on('message', message => {
+	if (message.content === 'bruh') {
+		message.channel.send("**Bruh**", {files:["https://gifimage.net/wp-content/uploads/2017/10/bruh-gif.gif"]});;
+	}
+});
                                                                                                                                                                                                                                                         
                                                                                                                               
 // THIS  MUST  BE  THIS  WAY
