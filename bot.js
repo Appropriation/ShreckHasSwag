@@ -28,6 +28,26 @@ client.on('message', message => {
     	message.reply('https://cdn.discordapp.com/attachments/380292099377201162/515270334174461952/tumblr_pie02giID21xoyw8po1_400.gif');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'ez') {
+    	message.reply('the only thing easy here is that hairline you rockin');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'stfu') {
+    	message.reply('nigga who is u speaking too u built like a bologny samwich');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'kys') {
+    	message.reply('Naw you kill yourself i hope you get to the best part of your life and get diagnosed with cancer');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'nigger') {
+    	message.reply('white trash');
+  	}
+});
                                                                                                                                                                                                                                                         
                                                                                                                               
 // THIS  MUST  BE  THIS  WAY
