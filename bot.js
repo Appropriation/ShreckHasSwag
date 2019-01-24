@@ -53,6 +53,11 @@ client.on('message', message => {
 		message.channel.send("**Bruh**", {files:["https://gifimage.net/wp-content/uploads/2017/10/bruh-gif.gif"]});;
 	}
 });
+client.on('message', message => {
+    if (message.content === '>Owner') {
+    	message.reply('My Daddy is @Damagex11#9413 :weary:');
+  	}
+});
                                                                                                                                                                                                                                                         
                                                                                                                               
 // THIS  MUST  BE  THIS  WAY
